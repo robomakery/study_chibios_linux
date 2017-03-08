@@ -103,8 +103,8 @@ From Eclipse, you can compile the project, which you just imported, as follow.
 ## Setting OpenOCD
   
 OpenOCD is little bit different from other debuggers since it has server-client structure.  
-OpenOCD server works on the ST's debugging hardware.  
-OpenOCD client works with Elclipse (or any other IDEs).  
+- OpenOCD server works on the ST's debugging hardware.  
+- OpenOCD client works with Elclipse (or any other IDEs).  
   
 Therefore, we need to set up OpenOCD server with "External Tools Configuration" menu.  
 ![images/001.png](images/001.png)  
