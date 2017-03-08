@@ -13,6 +13,9 @@ SJ Kim
 
 - [Hardware](#Hardware)
 - [Installation](#installation)
+- Basic tools
+- Cross tool chain
+- Eclipse Neon and plug-ins
 - [Setting Eclipse](#setting-eclipse)
 - [Project importing and compiling](#project-importing-and-compiling)
 - [Setting OpenOCD](#setting-openocd)
@@ -94,7 +97,15 @@ From Eclipse, you can compile the project, which you just imported, as follow.
 
 ## Setting OpenOCD
   
-ccc    
+OpenOCD is little bit different from other debuggers since it has server-client structure.  
+OpenOCD server works on the ST's debugging hardware.  
+OpenOCD client works with Elclipse (or any other IDEs).  
+
+Therefore, we need to set up OpenOCD server with "External Tools Configuration" menu.
+[External Tools Configuration](#images/001.png)
+
+Also we need to set up OpenOCD client with "Debug Configuration" menu.
+[Debug Configuration](#images/002.png)
   
 ## Debugging
   
