@@ -53,13 +53,14 @@ $ sudo install gcc-arm-embedded
 
 ### Eclipse Neon and plug-ins
   
-Although we already installed Eclipse from the official repository, we will use a newer Eclipse, which is "Neon". (However, by installing Eclipse with command line, we can easily have required tools for Eclipse.)  
+Although we already installed Eclipse from the official repository, we will use a newer Eclipse, which is "Neon". (However, by installing Eclipse with command line, we can easily have required tools like JDK for Eclipse.)  
   
 In order to get Eclipse Neon, 
 - visit this link [>>>](http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neon2).  
-- If you click "Download" button on the web page, it might give you a flie "eclipse-inst-linux64.tar.gz". 
+- If you click "Download" button on the web page, it might give you a flie **"eclipse-inst-linux64.tar.gz"**. 
 - Extract the file (either using gunzip in the terminal or right clicking in the file browser).  
-- Go to the directory and run the installer by right clicking "eclipse-inst" in the file browser.  
+- Go to the directory and run the installer by right clicking "eclipse-inst" in the file browser. 
+- Choose **"C/C++"** environment.
 - That will automatically install Eclipse Neon but you can update by visiting **"Help > Check for Updates"**.
 
 Once the Eclipse installation is done, 
