@@ -106,6 +106,15 @@ Therefore, we need to set up OpenOCD server with "External Tools Configuration" 
   
 Also we need to set up OpenOCD client with "Debug Configuration" menu.   
 ![images/002.png](images/002.png)  
+
+### External Tools Configuration  
+  
+I believe that you can find the icon from the toolbar.
+- Click the menu **"External Tools Configuration"**.  
+- Right click on **"Program"**.
+- Type **"/usr/bin/openocd"** for Location.
+- Click **"Browse File System"** for Working Directory and point to the project directory "p003".
+- Type **"-c "telnet_port 4444" -s "scripts" -f interface/stlink-v2-1.cfg" -f "board/stm32f4discovery.cfg" "** for Argument.
    
 ## Debugging
   
