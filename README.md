@@ -19,6 +19,8 @@ SJ Kim
 - [Setting Eclipse](#setting-eclipse)
 - [Project importing and compiling](#project-importing-and-compiling)
 - [Setting OpenOCD](#setting-openocd)
+- External Tools Configuration
+- Debug Configuration
 - [Debugging](#debugging)
 
 ## Hardware
@@ -74,6 +76,9 @@ Once the Eclipse installation is done,
 - Below that, you also can fine a text input **"type text filter"**.
 - Type **"C/C++ GDB Hardware Debugging"** and install.
 - With the same manner, install **"C/C++ Remote Launch"** as well.
+
+After installing the plug-ins, disable the option "Build Automatically".
+- Click **"Project > Build Automatically"**.
   
 ## Project importing and compiling
   
@@ -114,11 +119,28 @@ I believe that you can find the icon from the toolbar.
 - Right click on **"Program"**.
 - Type **"/usr/bin/openocd"** for Location.
 - Click **"Browse File System"** for Working Directory and point to the project directory "p003".
-- Type **"-c "telnet_port 4444" -s "scripts" -f interface/stlink-v2-1.cfg" -f "board/stm32f4discovery.cfg" "** for Argument.
+- Type **"-c "telnet_port 4444" -s "scripts" -f "interface/stlink-v2-1.cfg" -f "board/stm32f4discovery.cfg" "** for Argument.
+- Click **"Apply"**.
+- This is it for OpenOCD server!
+  
+### Debug Configuration
+  
+I also believe that you can find the icon from the toolbar
+- Click the menu **"Debug Configuration"**.
+- Right click on **"GDB Hardware Debugging"**.
+- Click **"Browse"** for Project and point to the project directory "p003".
+- Move to **"Debugger"** tap.
+- Type **"3333"** for Port Number.
+- Click **"Apply"**.
+- This is it for OpenOCD client!
    
 ## Debugging
   
-ddd
+Invoking the debugging mode is pretty easy.  
+- Launch the OpenOCD server first.
+- Run the OpenOCD client with a built binary.
+  
+However, Debugging itself is not easy so that we may discuss in a following session.  
   
 ## References
    
