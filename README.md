@@ -13,14 +13,14 @@ SJ Kim
 
 - [Hardware](#Hardware)
 - [Installation](#installation)
-	- Basic tools
-	- Cross tool chain
-	- Eclipse Neon
+	- [Basic tools](#basic-tools)
+	- [Cross tool chain](#cross-tool-chain)
+	- [Eclipse Neon](#eclipse-neon)
 - [Setting Eclipse](#setting-eclipse)
 - [Project importing and compiling](#project-importing-and-compiling)
 - [Setting OpenOCD](#setting-openocd)
-	- External Tools Configuration
-	- Debug Configuration
+	- [External Tools Configuration](#external-tools-configuration)
+	- [Debug Configuration](#debug-configuration)
 - [Debugging](#debugging)
 
 ## Hardware
