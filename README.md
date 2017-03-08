@@ -147,6 +147,8 @@ When you want to stop debugging, you don't need to stop OpenOCD server. Just sto
 However, Debugging itself is not easy so that we may discuss in a following session.  
   
 ## References
+
+To know more about programming with ChibiOS, visiting its official web-site and forum is recommended.  
    
 [1] http://www.chibios.org/dokuwiki/doku.php  
 [2] http://vedder.se/2015/01/vesc-open-source-esc/  
