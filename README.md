@@ -15,7 +15,7 @@ SJ Kim
 - [Installation](#installation)
 	- Basic tools
 	- Cross tool chain
-	- Eclipse Neon and plug-ins  
+	- Eclipse Neon
 - [Setting Eclipse](#setting-eclipse)
 - [Project importing and compiling](#project-importing-and-compiling)
 - [Setting OpenOCD](#setting-openocd)
@@ -57,7 +57,7 @@ $ sudo apt-get update
 $ sudo install gcc-arm-embedded
 ```
 
-### Eclipse Neon and plug-ins
+### Eclipse Neon
   
 Although we already installed Eclipse from the official repository, we will use a newer Eclipse, which is "Neon". (However, by installing Eclipse with command line, we can easily have required tools like JDK for Eclipse.)  
   
@@ -68,6 +68,8 @@ In order to get Eclipse Neon,
 - Go to the directory and run the installer by right clicking **"eclipse-inst"** in the file browser. 
 - Choose **"C/C++"** environment.
 - That will automatically install Eclipse Neon but you should update by visiting **"Help > Check for Updates"**.
+
+## Setting Eclipse
 
 Once the Eclipse installation is done, 
 - You can run Eclipse and navigate to **"Help > Install New Software"**.  
