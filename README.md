@@ -67,14 +67,30 @@ In order to get Eclipse Neon,
 Once the Eclipse installation is done, 
 - You can run Eclipse and navigate to **"Help > Install New Software"**.  
 - In the Dialog, you can find a text input **"Work with:"**. 
-- Type Neon, then it will give you few choices. Click **"Neon - http://download.eclipse.org/releases/neon"**.
+- Type Neon, then it will give you few choices. Click **"Neon - http://download.eclipse.org/releases/neon"** from that dialog (not this page's!).
 - Below that, you also can fine a text input **"type text filter"**.
 - Type **"C/C++ GDB Hardware Debugging"** and install.
-- With the same manner, install "C/C++ Remote Launch".
+- With the same manner, install **"C/C++ Remote Launch"** as well.
   
 ## Project importing and compiling
   
-bbb
+Now, we are ready to get the code from this repository.
+  
+```
+$ cd ~
+$ git clone https://github.com/bus710/study_chibios_linux
+```
+  
+From Eclipse, you can import a project as follow.
+- Go to **"File > New > Makefile Project with Existing Code"**.
+- You may see the **"New Project"** dialog.
+- Click **"Browse"** and find a directory as **"study_chibios_linux/p003"**.
+- Click **"Cross GCC"**.
+- Click **"Finish"**.
+
+From Eclipse, you can compile the project, which you just imported, as follow.
+- Click **"Project > Build All"**.
+- Check the console log of Eclipse. (Can you see "Build Finished"?)
 
 ## Setting OpenOCD
   
