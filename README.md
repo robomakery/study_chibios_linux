@@ -14,8 +14,9 @@ SJ Kim
 - [Hardware](#Hardware)
 - [Installation](#installation)
 - [Setting Eclipse](#setting-eclipse)
-- [Project importing](#project-importing)
-- [Compiling and debugging](#compiling-and-debugging)
+- [Project importing and compiling](#project-importing-and-compiling)
+- [Setting OpenOCD](#setting-openocd)
+- [Debugging](#debugging)
 
 ## Hardware
 
@@ -59,24 +60,29 @@ In order to get Eclipse Neon,
 - visit this link [>>>](http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neon2).  
 - If you click "Download" button on the web page, it might give you a flie **"eclipse-inst-linux64.tar.gz"**. 
 - Extract the file (either using gunzip in the terminal or right clicking in the file browser).  
-- Go to the directory and run the installer by right clicking "eclipse-inst" in the file browser. 
+- Go to the directory and run the installer by right clicking **"eclipse-inst"** in the file browser. 
 - Choose **"C/C++"** environment.
-- That will automatically install Eclipse Neon but you can update by visiting **"Help > Check for Updates"**.
+- That will automatically install Eclipse Neon but you should update by visiting **"Help > Check for Updates"**.
 
 Once the Eclipse installation is done, 
 - You can run Eclipse and navigate to **"Help > Install New Software"**.  
 - In the Dialog, you can find a text input **"Work with:"**. 
-- Type Neon, then it will give few choice. Click **"Neon - httpL//download.eclipse.org/releases/neon"**.
+- Type Neon, then it will give you few choices. Click **"Neon - http://download.eclipse.org/releases/neon"**.
 - Below that, you also can fine a text input **"type text filter"**.
-- Type 
+- Type **"C/C++ GDB Hardware Debugging"** and install.
+- With the same manner, install "C/C++ Remote Launch".
   
-## Project importing
+## Project importing and compiling
   
 bbb
+
+## Setting OpenOCD
   
-## Compiling and debugging
+ccc    
   
-ccc 
+## Debugging
+  
+ddd
   
 ## References
    
