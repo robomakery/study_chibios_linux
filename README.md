@@ -139,6 +139,8 @@ I also believe that you can find the icon from the toolbar
 Invoking the debugging mode is pretty easy.  
 - Launch the OpenOCD server first.
 - Run the OpenOCD client with a built binary.
+
+When you want to stop debugging, you don't need to stop OpenOCD server. Just stop OpenOCD client.  
   
 However, Debugging itself is not easy so that we may discuss in a following session.  
   
