@@ -76,7 +76,7 @@ Once the Eclipse installation is done,
 - Navigate to **"Help > Install New Software"**.  
 - In the Dialog, you can find a text input **"Work with:"**. 
 - Type Neon, then it will give you few choices. Click **"Neon - http://download.eclipse.org/releases/neon"** from that dialog (not this page's!).
-- Below that, you also can fine a text input **"type text filter"**.
+- Below that, you also can find a text input **"type text filter"**.
 - Type **"C/C++ GDB Hardware Debugging"** and install.
 - With the same manner, install **"C/C++ Remote Launch"** as well.
 
