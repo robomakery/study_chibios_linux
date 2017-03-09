@@ -72,7 +72,7 @@ In order to get Eclipse Neon,
 ## Setting Eclipse
 
 Once the Eclipse installation is done, 
-- You can run Eclipse by type **"./eclipse/cpp-neon-eclipse/eclipse"** in the terminal (it would be nice to make symlink in "/usr/bin/" to replace the old Eclipse).
+- You can run Eclipse by type **"./eclipse/cpp-neon-eclipse/eclipse"** in the terminal (it would be nice to make a symlink in "/usr/bin/" to replace the old Eclipse).
 - Navigate to **"Help > Install New Software"**.  
 - In the Dialog, you can find a text input **"Work with:"**. 
 - Type Neon, then it will give you few choices. Click **"Neon - http://download.eclipse.org/releases/neon"** from that dialog (not this page's!).
