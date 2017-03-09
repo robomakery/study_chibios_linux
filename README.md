@@ -72,7 +72,8 @@ In order to get Eclipse Neon,
 ## Setting Eclipse
 
 Once the Eclipse installation is done, 
-- You can run Eclipse and navigate to **"Help > Install New Software"**.  
+- You can run Eclipse by type **"./eclipse/cpp-neon-eclipse/eclipse"** in the terminal (it would be nice to make symlink in "/usr/bin/" to replace the old Eclipse).
+- Navigate to **"Help > Install New Software"**.  
 - In the Dialog, you can find a text input **"Work with:"**. 
 - Type Neon, then it will give you few choices. Click **"Neon - http://download.eclipse.org/releases/neon"** from that dialog (not this page's!).
 - Below that, you also can fine a text input **"type text filter"**.
@@ -118,7 +119,7 @@ Also we need to set up OpenOCD client with "Debug Configuration" menu.
   
 I believe that you can find the icon from the toolbar.
 - Click the menu **"External Tools Configuration"**.  
-- Right click on **"Program"**.
+- Right click on **"Program"** and click **"New"**.
 - Type **"/usr/bin/openocd"** for Location.
 - Click **"Browse File System"** for Working Directory and point to the project directory "p003".
 - Type **"-c "telnet_port 4444" -s "scripts" -f "interface/stlink-v2-1.cfg" -f "board/stm32f4discovery.cfg" "** for Argument.
@@ -129,9 +130,10 @@ I believe that you can find the icon from the toolbar.
   
 I also believe that you can find the icon from the toolbar
 - Click the menu **"Debug Configuration"**.
-- Right click on **"GDB Hardware Debugging"**.
+- Right click on **"GDB Hardware Debugging"** and click **"New"**.
 - Click **"Browse"** for Project and point to the project directory "p003".
 - Move to **"Debugger"** tap.
+- Type **"/usr/bin/arm-none-eabi-gdb"** for GDB Command
 - Type **"3333"** for Port Number.
 - Click **"Apply"**.
 - This is it for OpenOCD client!
