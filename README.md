@@ -54,7 +54,7 @@ In order to get the ARM cross compiler, you may follow below commands.
 ```
 $ sudo add-apt-repository ppa:team-gcc-arm-embedded/ppa
 $ sudo apt-get update
-$ sudo install gcc-arm-embedded
+$ sudo apt-get install gcc-arm-embedded
 ```
 
 ### Eclipse Neon
